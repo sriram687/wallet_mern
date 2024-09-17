@@ -7,8 +7,15 @@
 .w-screen {
     width: 100vw;
 }
+.w-100 {
+    width: 100%;
+}
 .w-50 {
     width: 50%;
+}
+
+.w-400{
+    width: 400px;
 }
 
 .flex {
@@ -58,6 +65,15 @@
 .m-3{
     margin: 30px;
 }
+
+.m-4{
+    margin: 40px;
+}
+
+.m-5{
+    margin: 50px;
+}
+
 
 
 .p-1{
