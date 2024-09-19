@@ -1,8 +1,10 @@
 import React from 'react'
 import {Col, Form, Row} from 'antd'
+import { useNavigate } from 'react-router-dom';
 
 
 function Register() {
+    const navigate = useNavigate();
     const onFinish = (values) => {
         console.log("Received values of form:", values);
     }
@@ -10,7 +12,7 @@ function Register() {
     <div className='m-5'>
         <div className='flex items-center justify-between'>
             <h1 className='text-2xl'>Sri's Wallet-REGISTER</h1>
-            <h1 className='text-sm underline'>
+            <h1 className='text-sm underline'onClick={()=>navigate('/login ')}>
                 Already a member , login
             </h1>
             </div>
